@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PizzaManageLinQDatabase">
+  <DataContextMoniker Name="/PizzaManageLinQDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0147b43f-a3cc-4ba5-81b7-5c4bce9c6b48" absoluteBounds="0.5, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PizzaManageLinQDatabaseDataContext/ACCOUNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55d19be6-927b-48f6-9c24-c445f9c6753e" absoluteBounds="0.51499999999999968, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68a5cc19-9f8a-4b6e-bd14-c51e3ea3fb63" absoluteBounds="4.25, 1.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/PizzaManageLinQDatabaseDataContext/BILLDETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b20d44c5-8112-430b-b68e-8937165be5df" absoluteBounds="4.265, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="605ca4bd-7d0f-4db4-9676-dc8d6a9215a7" absoluteBounds="2.25, 3.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PizzaManageLinQDatabaseDataContext/PRODUCT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="172a3791-44f5-4b0a-a0ff-6bb7783cccf5" absoluteBounds="2.265, 3.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

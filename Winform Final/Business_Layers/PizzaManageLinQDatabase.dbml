@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PizzaManager" Class="PizzaManageLinQDatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-DU7444DE\MANPHAM;Initial Catalog=PizzaManager;Integrated Security=True" SettingsObjectName="Winform_Final.Properties.Settings" SettingsPropertyName="PizzaManagerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ACCOUNT" Member="ACCOUNTs">
+    <Type Name="ACCOUNT">
+      <Column Name="userID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BILLDETAIL" Member="BILLDETAILs">
+    <Type Name="BILLDETAIL">
+      <Column Name="billID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="clientID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="totalPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="content" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="deliveryAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="deliveryDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PRODUCT" Member="PRODUCTs">
+    <Type Name="PRODUCT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
